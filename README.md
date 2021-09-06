@@ -135,6 +135,12 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/array/convert-same`][@stdlib/array/convert-same]: convert an array to the same data type as a second input array.
+
 </section>
 
 <!-- /.related -->
@@ -195,6 +201,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-convert/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/convert-same]: https://github.com/stdlib-js/array-convert-same
+
+<!-- </related-links> -->
 
 </section>
 
