@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/array-convert",
+  "version": "0.0.0",
+  "description": "Convert an array to an array of a different data type.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-convert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "data",
+    "structure",
+    "array",
+    "typed",
+    "typed array",
+    "typed-array",
+    "convert",
+    "cast",
+    "transform",
+    "copy",
+    "duplicate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
