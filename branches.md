@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/convert"
-click B href "https://github.com/stdlib-js/array-convert/tree/main"
-click C href "https://github.com/stdlib-js/array-convert/tree/production"
-click D href "https://github.com/stdlib-js/array-convert/tree/esm"
-click E href "https://github.com/stdlib-js/array-convert/tree/deno"
-click F href "https://github.com/stdlib-js/array-convert/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/convert"
+%% click B href "https://github.com/stdlib-js/array-convert/tree/main"
+%% click C href "https://github.com/stdlib-js/array-convert/tree/production"
+%% click D href "https://github.com/stdlib-js/array-convert/tree/esm"
+%% click E href "https://github.com/stdlib-js/array-convert/tree/deno"
+%% click F href "https://github.com/stdlib-js/array-convert/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/convert
