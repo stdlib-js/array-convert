@@ -44,7 +44,7 @@
     "@stdlib/blas-base-gcopy": "^0.0.8",
     "@stdlib/strided-base-reinterpret-complex128": "^0.0.2",
     "@stdlib/strided-base-reinterpret-complex64": "^0.0.2",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
