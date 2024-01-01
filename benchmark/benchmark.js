@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isCollection = require( '@stdlib/assert-is-collection' );
 var pkg = require( './../package.json' ).name;
 var convertArray = require( './../lib' );
