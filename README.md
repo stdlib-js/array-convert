@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import convert from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@esm/index.mjs';
+import convert from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@v0.2.1-esm/index.mjs';
 ```
 
 #### convert( arr, dtype )
@@ -109,7 +109,7 @@ The function supports the following data types:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
-import convert from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@esm/index.mjs';
+import convert from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@v0.2.1-esm/index.mjs';
 
 // Create a generic array:
 var arr = filledarrayBy( 5, 'generic', discreteUniform( -100, 100 ) );
