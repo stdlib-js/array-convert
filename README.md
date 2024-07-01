@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Convert an array to an array of a different data type.
+> Convert an array to an array of a different [data type][@stdlib/array/dtypes].
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -75,28 +75,13 @@ var convert = require( '@stdlib/array-convert' );
 
 #### convert( arr, dtype )
 
-Converts an array to an array of a different data type.
+Converts an array to an array of a different [data type][@stdlib/array/dtypes].
 
 ```javascript
 var arr = [ 1.0, 2.0, 3.0 ];
 var out = convert( arr, 'float32' );
 // returns <Float32Array>[ 1.0, 2.0, 3.0 ]
 ```
-
-The function supports the following data types:
-
--   `float32`: single-precision floating-point numbers.
--   `float64`: double-precision floating-point numbers.
--   `complex64`: single-precision complex floating-point numbers.
--   `complex128`: double-precision complex floating-point numbers.
--   `generic`: values of any type.
--   `int16`: signed 16-bit integers.
--   `int32`: signed 32-bit integers.
--   `int8`: signed 8-bit integers.
--   `uint16`: unsigned 16-bit integers.
--   `uint32`: unsigned 32-bit integers.
--   `uint8`: unsigned 8-bit integers.
--   `uint8c`: unsigned clamped 8-bit integers.
 
 </section>
 
@@ -236,6 +221,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-convert/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-convert/main/LICENSE
+
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
 
 <!-- <related-links> -->
 
