@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-01)
+## Unreleased (2024-07-17)
 
 <section class="features">
 
@@ -22,6 +22,9 @@
 
 <details>
 
+-   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
+-   [`ed9c0a5`](https://github.com/stdlib-js/stdlib/commit/ed9c0a5e55ff09af3dd6af8c38615480e2c1828e) - **refactor:** update paths _(by Athan Reines)_
+-   [`18b3c79`](https://github.com/stdlib-js/stdlib/commit/18b3c79c5035c7082618b7379cd6576e64393a96) - **refactor:** update paths _(by Athan Reines)_
 -   [`adb47ab`](https://github.com/stdlib-js/stdlib/commit/adb47abbac01e5bcc673f1ddd6815cb8ff22d8e3) - **feat:** add boolean dtype support to `array/convert` [(#2488)](https://github.com/stdlib-js/stdlib/pull/2488) _(by Jaysukh Makvana, Athan Reines)_
 
 </details>
