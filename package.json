@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-convert",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Convert an array to an array of a different data type.",
   "license": "Apache-2.0",
   "author": {
@@ -54,7 +54,7 @@
     "@stdlib/array-bool": "^0.1.0",
     "@stdlib/array-complex128": "^0.3.0",
     "@stdlib/array-complex64": "^0.3.0",
-    "@stdlib/array-dtypes": "^0.3.0",
+    "@stdlib/array-dtypes": "^0.4.0",
     "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
