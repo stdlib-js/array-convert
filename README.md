@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+convert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-convert/tags). For example,
+
+```javascript
 convert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@v0.3.1-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var convert = require( 'path/to/vendor/umd/array-convert/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
