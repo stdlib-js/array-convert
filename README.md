@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import convert from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@deno/mod.js';
+import convert from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@v0.3.1-deno/mod.js';
 ```
 
 #### convert( arr, dtype )
@@ -89,7 +89,7 @@ var out = convert( arr, 'float32' );
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
-import convert from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@deno/mod.js';
+import convert from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-convert@v0.3.1-deno/mod.js';
 
 // Create a generic array:
 var arr = filledarrayBy( 5, 'generic', discreteUniform( -100, 100 ) );
