@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,27 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection, DataTypeMap } from '@stdlib/types/array';
 
 /**
-* Convert an array to an array of a different data type.
+* Converts an array to an array of a different data type.
 *
-* @module @stdlib/array-convert
+* @param x - array to convert
+* @param dtype - output data type
+* @returns output array
 *
 * @example
-* var convert = require( '@stdlib/array-convert' );
-*
 * var arr = [ 1.0, 2.0, 3.0, 4.0 ];
-*
 * var out = convert( arr, 'float64' );
 * // returns <Float64Array>[ 1.0, 2.0, 3.0, 4.0 ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function convert<T, U extends keyof DataTypeMap<T>>( x: Collection<T>, dtype: U ): DataTypeMap<T>[U];
 
 
 // EXPORTS //
 
-module.exports = main;
+export = convert;
